@@ -43,10 +43,24 @@ export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 sudo /etc/init.d/postgresql start
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
+<<<<<<< HEAD
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completionsudo /etc/init.d/postgresql start
 export DISPLAY=172.21.64.1:0
 export BROWSER='"/mnt/c/Program Files/Google/Chrome/Application/chrome.exe"'
 export BROWSER='"/mnt/c/Program Files/Google/Chrome/Application/chrome.exe"'
+=======
+export BROWSER=/mnt/c/Program\ Files/Google/Chrome/Application/chrome.exe
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completionexport BROWSER='"/mnt/c/Program Files/Google/Chrome/Application/chrome.exe"'
+export BROWSER='"/mnt/c/ProgramFiles/Google/Chrome/Application/chrome.exe"'
+export BROWSER='"/mnt/c/Program Files/Google/Chrome/Application/chrome.exe"'
+export BROWSER='"/mnt/c/Program Files/Google/Chrome/Application/chrome.exe"'
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
+>>>>>>> a4618ccab3265071d957b5b6137f43997451adde
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
